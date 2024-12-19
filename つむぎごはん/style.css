@@ -1,0 +1,224 @@
+/* PC・スマホ共通 */
+body {
+    max-width: 1080px;
+    margin: 0 auto 0 auto;
+}
+
+/* ヘッダー */
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFEF9;
+    font-family: "Kiwi Maru", "ZEN Maru Gothic", "Kosugi Maru", sans-serif;
+}
+
+/* ヘッダーメニューレイアウト */
+#nav-pc {
+    font-size: 18px;
+}
+
+#nav-pc ul {
+    display: flex;
+    padding-left: 0;
+}
+
+#nav-pc li {
+    list-style: none;
+}
+
+#nav-pc a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+}
+
+#nav-pc a:hover {
+    text-decoration: underline;
+}
+
+/* トップページ */
+#topmain {
+    position: relative;
+    height: 400px;
+}
+
+#top-message {
+    position: absolute;
+    top: 180px;
+    left: 100px;
+    font-family: "Kiwi Maru", "ZEN Maru Gothic", "Kosugi Maru", sans-serif;
+}
+
+#top-message p {
+    font-size: 30px;
+}
+
+#top-message h1 {
+    font-size: 50px;
+}
+
+/* こだわり */
+#commitment-title {
+    margin: 230px 0 0 20px;
+    font-size: 40px;
+    font-family: "Kiwi Maru", "ZEN Maru Gothic", "Kosugi Maru", sans-serif;
+}
+
+#layout {
+    position: relative;
+}
+
+#commitment-message {
+    text-align: center;
+    font-size: 18px;
+}
+
+#ma-bo {
+    text-align: left
+}
+
+#pasta {
+    margin-right: auto;
+}
+
+#aquapazza {
+    margin-left: auto;
+}
+
+#point {
+    text-align: center;
+}
+
+#commitment-point {
+    width: 80%;
+    margin-top: 40px;
+}
+
+#more-button {
+    width: 30%;
+    margin-top: 30px;
+}
+
+/* メニュー */
+#menu-title {
+    margin: 100px 0 0 20px;
+    font-size: 40px;
+    font-family: "Kiwi Maru", "ZEN Maru Gothic", "Kosugi Maru", sans-serif;
+}
+#menu-text > p {
+    font-size: 18px;
+    text-align: right;
+}
+
+#menu-content {
+    text-align: center;
+}
+
+#menu-point {
+    width: 80%;
+    margin-top: 30px;
+}
+
+#menu-content > p {
+    font-size: 23px;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+/* 利用方法 */
+#howto-title {
+    margin: 100px 0 0 20px;
+    font-size: 40px;
+    font-family: "Kiwi Maru", "ZEN Maru Gothic", "Kosugi Maru", sans-serif;
+}
+
+#howto-use {
+    width: 10%;
+    margin-top: 20px;
+}
+
+/* お客様の声 */
+h2 {
+    margin: 80px 0 0 20px;
+    font-size: 40px;
+    font-family: "Kiwi Maru", "ZEN Maru Gothic", "Kosugi Maru", sans-serif;
+}
+
+#woman {
+    width: 40%;
+    margin: 50px 0 0 100px;
+}
+
+#man {
+    width: 40%;
+    margin: 100px 80px -150px 0;
+}
+
+#student {
+    width: 40%;
+    margin: 100px 0 0 100px;
+}
+
+#voice > p {
+    font-size: 20px;
+    text-align: right;
+}
+
+/* 注文誘導 */
+#order {
+    position: relative;
+}
+
+#order-image {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#order-message {
+    position: absolute;
+    top: 40%;
+    text-align: center;
+}
+
+#order-button {
+    width: 100%;
+}
+#order-text {
+    font-size: 25px;  
+}
+
+/* フッター */
+#footer {
+    position: relative;
+    color: #FFFEF9;
+}
+
+#footer-logo {
+    width: 30%;
+    margin: 40px 0 0 80px;
+}
+
+#footer-text {
+    position: absolute;
+    top: 40%;
+    right: 80px;
+}
+
+#footer-link {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#footer-link > a {
+    text-decoration: none;
+    color: black;
+    margin: 10px
+}
+
+#footer-link > a:hover {
+    text-decoration: underline;
+}
+
+#copyright {
+    text-align: right;
+}
